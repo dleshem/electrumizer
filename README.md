@@ -37,4 +37,4 @@ Since browsers forbid HTTPS websites from communicating over HTTP, [electrumizer
 
 #### Can I run the test locally?
 
-Yes. Download the HTTP and JS files, and knock yourself out.
+Yes. Download the HTML and JS files, and knock yourself out.
