@@ -113,7 +113,7 @@ const getElectrumVersion = async (port) => {
 
 const electrumize = async (port) => {
   console.log(`[${port}] Loading wallet`);
-  await localJsonRpc(port, 'daemon', {subcommand: 'load_wallet'});
+  await localJsonRpc(port, 'daemon', [{subcommand: 'load_wallet'}]);
   
   console.log(`[${port}] Getting balance`);
   const balance = await localJsonRpc(port, 'getbalance', {}).confirmed || 0;
