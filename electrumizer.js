@@ -129,7 +129,7 @@ const electrumize = async (port) => {
 
 // Magic values based on trial and error on Chrome
 const portsBatchSize = 100;
-const timeout = 250;
+const timeout = 500;
 
 // See https://en.wikipedia.org/wiki/Ephemeral_port
 const minPort = 49152;
