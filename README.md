@@ -1,5 +1,5 @@
 # electrumizer
-Proof of concept exploit for Electrum Bitcoin Wallet's [JSON-RPC vulnerability](https://github.com/spesmilo/electrum/issues/3374).
+Proof of concept exploit for Electrum Bitcoin Wallet's [JSON-RPC vulnerability](https://github.com/spesmilo/electrum-docs/blob/master/cve.rst).
 
 ## Frequently Asked Questions
 
